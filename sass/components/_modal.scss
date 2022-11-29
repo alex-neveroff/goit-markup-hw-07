@@ -13,47 +13,48 @@
 	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 
 	transition: transform 500ms $timeTransition, box-shadow 500ms $timeTransition;
-}
-.modal__text {
-	margin-bottom: 12px;
 
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 1.15;
-	text-align: center;
+	&__text {
+		margin-bottom: 12px;
 
-	color: $headerColor;
-}
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.15;
+		text-align: center;
 
-.modal__button {
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	width: 30px;
-	height: 30px;
-	padding: 6px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+		color: $headerColor;
+	}
 
-	background-color: $bcgGeneral;
+	&__icon {
+		fill: currentColor;
+	}
 
-	border-radius: 50%;
-	border: 1px solid $borderModalButton;
+	&__button {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		width: 30px;
+		height: 30px;
+		padding: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-	cursor: pointer;
+		background-color: $bcgGeneral;
 
-	transition: border-color 250ms $timeTransition, outline 250ms $timeTransition, color 250ms $timeTransition;
-}
+		border-radius: 50%;
+		border: 1px solid $borderModalButton;
 
-.modal__button:hover,
-.modal__button:focus {
-	border-color: $accentGeneral;
-	color: $accentGeneral;
+		cursor: pointer;
 
-	outline: 1px solid $accentGeneral;
-}
+		transition: border-color 250ms $timeTransition, outline 250ms $timeTransition, color 250ms $timeTransition;
 
-.modal__icon {
-	fill: currentColor;
+		&:hover,
+		&:focus {
+			border-color: $accentGeneral;
+			color: $accentGeneral;
+
+			outline: 1px solid $accentGeneral;
+		}
+	}
 }

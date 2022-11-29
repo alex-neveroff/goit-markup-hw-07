@@ -26,10 +26,10 @@
 	cursor: pointer;
 
 	transition: background-color 250ms $timeTransition;
-}
 
-.button:hover,
-.button:focus {
-	background-color: $accentButton;
-	outline: transparent;
+	&:hover,
+	&:focus {
+		background-color: $accentButton;
+		outline: transparent;
+	}
 }

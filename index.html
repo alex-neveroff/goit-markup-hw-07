@@ -23,12 +23,10 @@
 		<header class="page-header">
 			<div class="container page-header__container">
 				<nav class="navigation">
-					<a href="./index.html" lang="en" class="logo logo__header"
-						>Web<span class="logo--header-part">Studio</span></a
-					>
+					<a href="./index.html" lang="en" class="logo-header">Web<span class="logo-header__part">Studio</span></a>
 					<ul class="navigation__menu">
 						<li class="navigation__item">
-							<a href="./index.html" class="navigation-current navigation__link">Студія</a>
+							<a href="./index.html" class="navigation__link current-page">Студія</a>
 						</li>
 						<li class="navigation__item"><a href="./potfolio.html" class="navigation__link">Портфоліо</a></li>
 						<li class="navigation__item"><a href="#" class="navigation__link">Контакти</a></li>
@@ -63,7 +61,7 @@
 			</section>
 
 			<!--Особливості-->
-			<section class="section first-section">
+			<section class="section section-feauters">
 				<div class="container">
 					<!-- Заголовок прихований -->
 					<h2 class="section__title hidden">Особливості</h2>
@@ -119,16 +117,22 @@
 
 					<ul class="work">
 						<li class="work__item">
-							<img class="work__img" src="./images/development.jpg" alt="Створення сайтів" width="370" height="294" />
-							<p class="work__overlay">Десктопні додатки</p>
+							<div class="overlay">
+								<img class="work__img" src="./images/development.jpg" alt="Створення сайтів" width="370" height="294" />
+								<p class="overlay__work">Десктопні додатки</p>
+							</div>
 						</li>
-						<li class="work__item">
-							<img class="work__img" src="./images/mobile.jpg" alt="Мобільна розробка" width="370" height="294" />
-							<p class="work__overlay">Мобільні додатки</p>
+						<li class="work__item"
+							><div class="overlay">
+								<img class="work__img" src="./images/mobile.jpg" alt="Мобільна розробка" width="370" height="294" />
+								<p class="overlay__work">Мобільні додатки</p></div
+							>
 						</li>
-						<li class="work__item">
-							<img class="work__img" src="./images/disign.jpg" alt="Графічний дизайн" width="370" height="294" />
-							<p class="work__overlay">Дизайнерські рішення</p>
+						<li class="work__item"
+							><div class="overlay">
+								<img class="work__img" src="./images/disign.jpg" alt="Графічний дизайн" width="370" height="294" />
+								<p class="overlay__work">Дизайнерські рішення</p></div
+							>
 						</li>
 					</ul>
 				</div>
@@ -152,25 +156,25 @@
 							<p lang="en" class="team__text">Product Designer</p>
 							<ul class="social-net">
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-instagram"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-twitter"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-facebook"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-linkedin"></use></svg
 									></a>
@@ -183,25 +187,25 @@
 							<p lang="en" class="team__text">Frontend Developer</p>
 							<ul class="social-net">
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-instagram"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-twitter"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-facebook"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-linkedin"></use></svg
 									></a>
@@ -220,25 +224,25 @@
 							<p lang="en" class="team__text">Marketing</p>
 							<ul class="social-net">
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-instagram"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-twitter"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-facebook"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-linkedin"></use></svg
 									></a>
@@ -257,25 +261,25 @@
 							<p lang="en" class="team__text">UI Designer</p>
 							<ul class="social-net">
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-instagram"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-twitter"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-facebook"></use></svg
 									></a>
 								</li>
 								<li class="social-net__item">
-									<a href="#" class="social-net__link social-net__link--grey"
+									<a href="#" class="social-net__link--dark"
 										><svg class="social-net__icon" width="20" height="20">
 											<use href="./images/sprite.svg#icon-social-linkedin"></use></svg
 									></a>
@@ -341,9 +345,7 @@
 		<footer class="page-footer">
 			<div class="container page-footer__container">
 				<div>
-					<a href="./index.html" lang="en" class="logo logo__footer"
-						>Web<span class="logo--footer-part">Studio</span></a
-					>
+					<a href="./index.html" lang="en" class="logo-footer">Web<span class="logo-footer__part">Studio</span></a>
 					<address>
 						<ul class="studio-adress">
 							<li class="studio-adress__item">
@@ -351,17 +353,15 @@
 									href="https://goo.gl/maps/uNxrcM7Ruqw2PwGc9"
 									target="_blank"
 									rel="noopener noreferrer"
-									class="studio-adress__link"
+									class="studio-adress__link--light"
 									>м. Київ, пр-т Лесі Українки, 26</a
 								>
 							</li>
 							<li class="studio-adress__item">
-								<a href="mailto:info@devstudio.com" class="studio-adress__link studio-adress__link--color"
-									>info@devstudio.com</a
-								>
+								<a href="mailto:info@devstudio.com" class="studio-adress__link--dark">info@devstudio.com</a>
 							</li>
 							<li class="studio-adress__item">
-								<a href="tel:+380961111111" class="studio-adress__link studio-adress__link--color">+38 096 111 11 11</a>
+								<a href="tel:+380961111111" class="studio-adress__link--dark">+38 096 111 11 11</a>
 							</li>
 						</ul>
 					</address>
@@ -370,26 +370,26 @@
 					<p class="social-net__label">Приєднуйтесь</p>
 					<ul class="social-net">
 						<li class="social-net__item">
-							<a href="#" class="social-net__link">
+							<a href="#" class="social-net__link--light">
 								<svg class="social-net__icon" width="20" height="20">
 									<use href="./images/sprite.svg#icon-social-instagram"></use>
 								</svg>
 							</a>
 						</li>
 						<li class="social-net__item">
-							<a href="#" class="social-net__link">
+							<a href="#" class="social-net__link--light">
 								<svg class="social-net__icon" width="20" height="20">
 									<use href="./images/sprite.svg#icon-social-twitter"></use></svg
 							></a>
 						</li>
 						<li class="social-net__item">
-							<a href="#" class="social-net__link">
+							<a href="#" class="social-net__link--light">
 								<svg class="social-net__icon" width="20" height="20">
 									<use href="./images/sprite.svg#icon-social-facebook"></use></svg
 							></a>
 						</li>
 						<li class="social-net__item">
-							<a href="#" class="social-net__link">
+							<a href="#" class="social-net__link--light">
 								<svg class="social-net__icon" width="20" height="20">
 									<use href="./images/sprite.svg#icon-social-linkedin"></use></svg
 							></a>
