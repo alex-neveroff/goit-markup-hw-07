@@ -1,0 +1,23 @@
+.logo {
+	color: $accentGeneral;
+
+	font-family: $fontLogo;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.logo--header-part {
+	color: $logoPartHeader;
+}
+
+.logo--footer-part {
+	color: $logoPartFooter;
+}
+.logo__header {
+	margin-right: 93px;
+}
+
+.logo__footer {
+	display: inline-block;
+
+	margin-bottom: 20px;
+}
