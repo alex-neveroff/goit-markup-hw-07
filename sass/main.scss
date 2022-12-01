@@ -1,35 +1,33 @@
 @import "./utils/variables";
-@import "./utils/reset";
+
+@import "./basic/reset";
+@import "./basic/general";
+@import "./basic/container";
+@import "./basic/section";
+
+@import "./layout/page-header";
+@import "./layout/page-hero";
+@import "./layout/features";
+@import "./layout/clients";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/portfolio";
+@import "./layout/page-footer";
+@import "./layout/modal";
+
 @import "./utils/hidden";
+@import "./utils/backdrop";
+@import "./utils/is-hidden";
 
-@import "./components/general";
-@import "./components/section";
-@import "./components/container";
-@import "./components/social-net";
-@import "./components/overlay";
-
-@import "./components/page-header";
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/contacts";
 @import "./components/current-page";
-
-@import "./components/page-hero";
-@import "./components/features";
-@import "./components/clients";
-@import "./components/work";
-@import "./components/team";
-
+@import "./components/social-net";
+@import "./components/overlay";
 @import "./components/filter";
-@import "./components/gallery";
-
-@import "./components/page-footer";
 @import "./components/studio-adress";
 @import "./components/mailing";
 @import "./components/button";
-
-@import "./components/backdrop";
-@import "./components/is-hidden";
-@import "./components/modal";
 @import "./components/form";
 @import "./components/checkbox-custom";
