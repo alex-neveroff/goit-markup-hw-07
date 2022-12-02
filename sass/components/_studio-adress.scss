@@ -2,7 +2,7 @@
 	margin-bottom: 9px;
 }
 
-%studio-adress__link {
+.studio-adress__link {
 	font-style: normal;
 	line-height: 1.71;
 
@@ -14,13 +14,11 @@
 
 		outline: transparent;
 	}
-}
 
-.studio-adress__link--light {
-	@extend %studio-adress__link;
-	color: $secondaryColor;
-}
-.studio-adress__link--dark {
-	@extend %studio-adress__link;
-	color: $adressColor;
+	&--light {
+		@include colored($secondaryColor);
+	}
+	&--dark {
+		@include colored($adressColor);
+	}
 }

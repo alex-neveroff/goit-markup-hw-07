@@ -28,7 +28,7 @@
 	text-transform: uppercase;
 }
 
-%link {
+.social-net__link {
 	width: 100%;
 	height: 100%;
 
@@ -38,25 +38,24 @@
 
 	border-radius: 50%;
 	transition: color 250ms $timeTransition, background-color 250ms $timeTransition;
+
 	&:hover,
 	&:focus {
 		background-color: $accentGeneral;
 		outline: transparent;
 	}
-}
 
-.social-net__link--light {
-	@extend %link;
-	color: $secondaryColor;
-	background-color: $bcgIconFooter;
-}
-
-.social-net__link--dark {
-	@extend %link;
-	color: $iconColor;
-
-	&:hover,
-	&:focus {
+	&--light {
 		color: $secondaryColor;
+		background-color: $bcgIconFooter;
+	}
+
+	&--dark {
+		color: $iconColor;
+
+		&:hover,
+		&:focus {
+			color: $secondaryColor;
+		}
 	}
 }

@@ -1,31 +1,24 @@
-%logo {
+.logo {
 	color: $accentGeneral;
 
 	font-family: $fontLogo;
 	font-size: 26px;
 	line-height: 1.19;
-}
 
-@mixin changelogo($color) {
-	color: $color;
-}
+	&--header {
+		margin-right: 93px;
+	}
 
-.logo-header {
-	@extend %logo;
-	margin-right: 93px;
-
-	&--part {
-		@include changelogo($logoPartHeader);
+	&--footer {
+		display: inline-block;
+		margin-bottom: 20px;
 	}
 }
 
-.logo-footer {
-	@extend %logo;
+.logo__part {
+	@include colored($logoPartHeader);
 
-	display: inline-block;
-	margin-bottom: 20px;
-
-	&--part {
-		@include changelogo($logoPartFooter);
+	&--inverse {
+		@include colored($logoPartFooter);
 	}
 }

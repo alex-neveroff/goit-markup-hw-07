@@ -7,7 +7,29 @@
 	flex-basis: calc((100% - 60px) / 3);
 }
 
-.portfolio__footer {
+.portfolio__link {
+	display: block;
+
+	transition: box-shadow 250ms $timeTransition;
+
+	&:hover,
+	&:focus {
+		box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+		outline: transparent;
+	}
+}
+
+.portfolio__description {
+	font-size: 18px;
+	line-height: 1.56;
+
+	padding: 63px 24px;
+
+	color: $secondaryColor;
+	background-color: $bcgOverlayPortfolio;
+}
+
+.portfolio__meta {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 24px;
@@ -31,16 +53,4 @@
 .portfolio__text {
 	font-size: 16px;
 	line-height: 1.875;
-}
-
-.portfolio__link {
-	display: block;
-
-	transition: box-shadow 250ms $timeTransition;
-
-	&:hover,
-	&:focus {
-		box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-		outline: transparent;
-	}
 }
